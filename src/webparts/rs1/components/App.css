@@ -1,0 +1,373 @@
+.App {
+    text-align: center;
+  }
+ .ctrlLibrary{
+   width: 1158px;
+ }
+ .titleToggle {
+  color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0px 8px 15px 0px;
+}
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .float-right {
+    float: right;
+  }
+  
+  .float-left {
+    float: left;
+  }
+  
+  .mbStyle {
+    border-bottom: 1px solid rgba(27, 89, 125, 0.1);
+    padding-bottom: 8px;
+  }
+  
+  .footerGral {
+    background: rgba(245, 245, 245, 0.5);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 0 24px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #16364A;
+  }
+  
+  .footerSecondary {
+    color: rgba(22, 54, 74, 0.6);
+    font-weight: 600;
+    font-size: 14px;
+    border-top: 2px solid rgba(85, 162, 162, 0.1);
+    padding: 0 24px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .bgSocios {
+    background: rgba(7, 32, 57, 0.7) 100%;
+    height: calc(-44px + 100vh);
+    margin-top: 44px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .colVA {
+    height: calc(-44px + 100vh);
+    margin-top: 44px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .bgNegocios1 {
+    height: calc(-44px + 100vh);
+    margin-top: 44px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .bgNegocios {
+    background: rgba(135, 203, 243, 0.1);
+    height: calc(-44px + 100vh);
+    margin-top: 44px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .col-full-vh {
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(180deg, rgba(7, 32, 57, 0) 0%, rgba(2, 15, 29, 0.9) 100%);
+  }
+  
+  .bottomText {
+    bottom: 0;
+    position: absolute;
+  }
+  
+  .relSocios {
+    font-weight: 430;
+    font-size: 49px;
+    line-height: 11px;
+    color: #FFFFFF;
+    border-left: 4px solid #8EC7C7;
+    margin-top: auto !important;
+    margin-left: 11px;
+    padding-left: 18x;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .mxy-auto {
+    margin: auto;
+  }
+  
+  .whiteBox {
+    padding: 32px;
+  }
+  
+  .nuevosNegociosTitle {
+    width: 384px;
+    background: rgba(56, 128, 144, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 24px 32px;
+  
+  }
+  
+  .homeRect {
+    text-align: center;
+    height: calc(-44px + 100vh);
+    /* margin-top: 44px; */
+    display: flex;
+    align-items: center;
+  }
+  
+  .homeTitle {
+    width: 1126px;
+    text-align: center;
+    background: rgba(245, 245, 245, 0.5);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 5px;
+  }
+  
+  .homeTitle h1 {
+    color: #16364A;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  
+  
+  .homeItemContainer {
+    box-shadow: 2px 4px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 0;
+    margin: 8px 0;
+  }
+  
+  .homeItemContainerIcon {
+    width: 195px;
+    background: #EFF9FB;
+    border-radius: 4px 4px 0 0;
+    color: #1B597D;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0 !important;
+    height: 135px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .homeItemContainerText {
+    width: 195px;
+    background: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    color: #1B597D;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0 !important;
+    height: 65px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .homeItemText {
+    color: #1B597D;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .homeItemIcon {
+    color: #1B597D;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .homeItemIcon i {
+    font-size: 72px !important;
+  }
+  
+  .homeItemIcon i.ms-Icon.fs-16.ms-Icon--Commitments {
+    color: #60A7DD !important;
+  }
+  
+  .homeItemIcon i.ms-Icon.fs-16.ms-Icon--Work {
+    color: #8AA717 !important;
+  }
+  
+  .homeItemIcon i.ms-Icon.fs-16.ms-Icon--PlayerSettings {
+    color: #77B1BE !important;
+  }
+  
+  .homeItemIcon i.ms-Icon.fs-16.ms-Icon--ProjectCollection {
+    color: #86D3D3 !important;
+  }
+  
+  .m34 {
+    margin: 34px !important;
+  }
+  
+  
+  
+  .bgportalProyectos {
+    background: rgba(29, 65, 86, 0.6);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    display: inline-block;
+    margin-left: -8px;
+    padding-left: 48px;
+    margin-bottom: 32px;
+
+  }
+  
+  .portalProyectosTitle {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
+    border-left: 2px solid #8EC7C7;
+    padding-left: 20px;
+    margin: 32px 150px 32px 32px;
+  }
+  
+  .mr-8 {
+    margin-right: 8px !important;
+  }
+  
+  .ml-8 {
+    margin-left: 8px !important;
+  }
+  
+  .showMoreP {
+    font-size: 14px;
+    line-height: 19px;
+    color: #1B597D;
+    text-align: right;
+  }
+  
+  .ms-Pivot-link::before {
+    border-bottom: 5px solid #55A2A2 !important;
+  }
+  
+  .ms-FocusZone {
+    border-bottom: 1px solid rgba(27, 89, 125, 0.1);
+  }
+  
+  .fs-16 {
+    font-size: 16px;
+  }
+  
+  .fs-14 {
+    font-size: 16px;
+  }
+  
+  .docEnvP {
+    font-size: 21px;
+    line-height: 28px;
+    color: #16364A;
+  }
+  
+  .mxy-0 {
+    margin: 0 !important;
+  }
+  
+  .mt-16 {
+    margin-top: 16px;
+  }
+  
+  
+  .ms-TextField-fieldGroup {
+    border: 1px solid #A4BDCB !important;
+  }
+  
+  .ms-Panel-header {
+    margin-bottom: 0 !important;
+  }
+  
+  .ms-Panel-headerText {
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    color: #16364A !important;
+    margin-top: 0 !important;
+  }
+  
+  .ms-Panel-content .subtitle-panel {
+    font-weight: normal;
+    font-size: 20px;
+    color: #16364A;
+  }
+  
+  button.ms-Button.ms-Button--default {
+    color: #55A2A2 !important;
+    font-weight: 600 !important;
+    background: rgba(27, 89, 125, 0.04) !important;
+    border: 1px solid #55A2A2 !important;
+    border-radius: 16px !important;
+    padding: 6px 12px !important;
+    margin: 4px !important;
+  }
+  
+  button.ms-Button.ms-Button--default:default {
+    background: rgba(27, 89, 125, 0.1) !important;
+  }
+.ms-Grid {
+    
+    width: 1111px;
+  }
+  .CanvasSection-xl4 {     
+    visibility: hidden;
+  }
+  .ms-FocusZone{
+    width: 1173px;
+  }
+  

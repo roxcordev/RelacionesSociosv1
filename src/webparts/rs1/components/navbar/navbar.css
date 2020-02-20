@@ -1,0 +1,47 @@
+
+.pBack {
+    color: #1B597D;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 8px 5px 14px 16px;
+    border-top: 1px solid rgba(27, 89, 125, 0.1);
+    border-bottom: 1px solid rgba(27, 89, 125, 0.1);
+}
+
+.pBack i {
+    color: #55A2A2;
+    font-size: 18px;
+    vertical-align: text-top;
+}
+
+.pTitle {
+    color: #16364A;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 8px 8px 8px 16px;
+}
+.ms-SearchBox{
+    height: 67px;
+    border-width: 0px 0px 0px;
+    border-color: white;
+}
+.infoProject {
+    margin-left: 32px;
+    margin-top: 10px;
+    /* color: blue; */
+    color: rgb(27, 89, 125);
+  }
+
+  .nav{
+        background-color: cadetblue;
+        width: 100px;
+        float: left;
+        height: 400px;
+        text-align: center;
+      
+      
+  }
+
+ 
